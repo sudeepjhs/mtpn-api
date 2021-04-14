@@ -1,6 +1,9 @@
 @author Sudeep Agarwal
 
+
 First Download Postman, then start the node app and follow the following EndPoints
+
+Edit Your DataBase connectivity from utils-> database.js
 
 To add User, use endpoint http://localhost:3000/addUser with post method and  json data. For example - 
 {
