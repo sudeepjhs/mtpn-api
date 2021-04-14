@@ -1,0 +1,23 @@
+@author Sudeep Agarwal
+
+First Download Postman, then start the node app and follow the following EndPoints
+
+To add User, use endpoint http://localhost:3000/addUser with post method and  json data. For example - 
+{
+    "name": "Sudeep",
+    "email":"sudeep@gmail.com"
+}
+
+To update User, use endpoint http://localhost:3000/editUser with patch method and json data. For example -
+{
+    "userId":1,
+    "name":"Sudeep Agarwal",
+    "email":"sudeep@gmail.com"
+}
+
+To delete User, use endpoint http://localhost:3000/deleteUser with delete method and json data. For example -
+{
+    "userId":"1"
+}
+
+To view all User, use endpoint http://localhost:3000/viewUser with Get method.
